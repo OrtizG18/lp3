@@ -1,0 +1,24 @@
+/*
+Position
+
+fixed
+stiky
+z-index
+
+*/
+
+/*position fixed*/
+.body{
+    padding-top: 4em;
+}
+
+.menu{
+    background: darkgrey;
+    padding: .5em;
+    text-align: center;
+    font-size: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}

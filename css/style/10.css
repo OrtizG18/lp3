@@ -1,0 +1,26 @@
+/*
+Position
+
+stiky
+z-index
+
+*/
+
+/*position stiky*/
+.slide{
+    width: 100%;
+    background: grey;
+    font-size: 3em;
+    text-align: center;
+    line-height: 6em;
+}
+
+.menu{
+    background: darkgray;
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    position: sticky;
+    top: 20px;
+}

@@ -1,0 +1,24 @@
+/*
+Position
+
+relative
+absolute
+fixed
+stiky
+z-index
+
+*/
+
+/*position relative*/
+.box-1{
+    background: grey;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 2em;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    bottom: 100px;
+    right: 100px;
+}

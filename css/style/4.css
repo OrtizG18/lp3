@@ -1,0 +1,66 @@
+/*Maquetar con BEM*/
+.titulo{
+    text-align: center;
+    font-size: 3em;
+    background: darkgray;
+    height: 80px;
+}
+
+.cabecera{
+    background-color: darkgrey;
+    height: 75px;
+}
+
+.cabecera_menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabecera_item{
+    line-height: 3;
+}
+
+.cabecera_item:active{
+    background: black;
+}
+
+.cabecera_link{
+    text-decoration: none;
+    font-size: 20;
+    color: darkblue;
+}
+
+
+.principal{
+    background: darkgray;
+    height: 300px;
+}
+
+.pie_pagina{
+    background: darkgray;
+    height: 200px;
+}
+
+/*forma incorrecta de maquetar el menu
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    line-height: 3;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20;
+
+}*/
