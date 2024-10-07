@@ -1,0 +1,89 @@
+/*css del formulario*/
+/*el secreto es meter todos los elementos dentro de cajas div*/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: radial-gradient(circle, #2c3e50, #808b96);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #17202a;
+    height: 100vh;
+}
+
+img{
+    max-width: 80%;
+}
+
+.tarjeta_principal{
+    background-color: #d5d8dc;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    margin: 2em;
+}
+
+.tarjeta_izquerda{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #abb2b9;
+    padding: .5em 0;
+}
+
+.tarjeta_derecha{
+    width: 80%;
+    padding: 0 1rem;
+}
+
+.tarjeta_titulo{
+    text-transform: uppercase;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.formulario_nombres{
+    display: flex;
+}
+
+.formulario_campos{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_label{
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.formulario_input, .formulario_textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #17202a;
+    color: inherit;
+}
+
+.formulario_submit{
+    width: 40%;
+    background: #abb2b9;
+    border: none;
+    padding: .8rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.formulario_submit:active{
+    transform: scale(.98);
+}
+
+.formulario_submit:hover{
+    background-color: #17202a;
+    color: #d5d8dc;
+}
