@@ -1,0 +1,45 @@
+/*alineamiento
+    justify-items: alinea los elementos horizontalomente respecto a la celda
+
+    align-item: alinea verticalmente con respecto a la celda
+
+    Admite valores:
+    start
+    end
+    center
+    stretch(default)
+*/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: radial-gradient(circle, darkgrey, grey);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    border: 3px solid black;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    justify-content: start;
+    align-items: end;
+    align-content: space-between;
+}
+
+.grid-item{
+    border: 1px solid ;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
