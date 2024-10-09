@@ -1,0 +1,51 @@
+/*Responsive design 
+Media querys breakpoint
+    Breakpoint: existen dos tipos, los major breakpoint y los minor breakpoint
+
+    Los major son los que cambian la apariencia de la web de forma significativa
+    Los minor son los que cambian cada cosa especifica para un elemento en concreto
+
+    Medidas mas comunes
+    0-320px - 360px: Mobile portrait
+    480px - 640px - 768px: Mobile landscape - tablet
+    1024px - 1200px - 1400px - 1440px: Tablets grandes, portatiles no hd
+    1920 - hacia arriba: HD, 2K, 4K
+
+    LOS MAS UTILIZADOS SON LOS MAJOR
+    Importante el orden de las medias querys
+    escribir los estilos por defecto y luego se va creciendo respetando la cascada
+    Dentro de los medias querys se pueden meter cualquier propiedad css
+*/
+
+.menu{
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/*vista para dispositivos moviles*/
+body{
+    background-color: darkgray;
+}
+
+@media screen and(min-width:480px){
+    body{
+        background-color: grey;
+    }
+}
+
+@media screen and(min-width:720px){
+    body{
+        background-color: darkred;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li{
+        color: darkslategray;
+    }
+}
