@@ -54,7 +54,7 @@ document.write("<h1>El array tiene "+numeros.length+" elementos</h1>");
 var busqueda = parseInt(prompt("Ingrese el numero que desea buscar: ", 0));
 var posicion = numeros.findIndex(numeros => numeros == busqueda);
 var valor = numeros.find(numeros => numeros == busqueda);
-if(posicion && posicion != -1){
+if(posicion != -1){
     document.write("El valor es "+valor+" y se encuentra en el indice: "+posicion);
 }else{
     document.write("<h1>El numero buscado no se encuentra en ningun indice</h1>");
