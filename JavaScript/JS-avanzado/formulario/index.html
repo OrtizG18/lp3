@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Agregar bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Librerías JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 p-5 bg-write shadow-lg rounded">
+                <form action="#" id="register-form" method="post">
+                    <h2>Registro de datos</h2>
+                    <br>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre", id="nombre" class="form-control" placeholder="Ingrese su nombre aqui">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido", id="apellido" class="form-control" placeholder="Ingrese su apellido aqui">
+                    </div>
+                    <div class="form-group">
+                        <label for="cedula">CI o RUC</label>
+                        <input type="text" name="cedula", id="cedula" class="form-control" placeholder="Ingrese su numero de cedula aqui" maxlength="7">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electronico</label>
+                        <input type="email" name="email", id="email" class="form-control" placeholder="example@Correo.com">
+                        <small id="emailOK" class="form-text text-muted">Mensaje para el usuario</small>
+                    </div>
+                    <input type="submit" class="btn btn-primary btn-block mt-5" value="Registrar">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
