@@ -262,30 +262,30 @@ footer a:hover {
 
 /* Estilos generales para botones */
 button {
-    color: white; /* Texto blanco */
-    border: none; /* Sin borde */
-    padding: 10px 15px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cursor pointer */
-    transition: background-color 0.3s; /* Transición para el hover */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 /* Estilo para el botón Editar */
 button.editar {
-    background-color: #28a745; /* Color verde */
+    background-color: #28a745;
 }
 
 button.editar:hover {
-    background-color: #218838; /* Verde más oscuro al pasar el ratón */
+    background-color: #218838;
 }
 
 /* Estilo para el botón Eliminar */
 button.eliminar {
-    background-color: #dc3545; /* Color rojo */
+    background-color: #dc3545;
 }
 
 button.eliminar:hover {
-    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+    background-color: #c82333;
 }
 
 .contact-list .action-buttons input[type="submit"]:hover {
@@ -337,13 +337,13 @@ button.eliminar:hover {
 }
 
 .alert.success {
-    background-color: #d4edda; /* Verde claro */
-    color: #155724; /* Verde oscuro */
-    border: 1px solid #c3e6cb; /* Borde verde claro */
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
 }
 
 .alert.error {
-    background-color: #f8d7da; /* Rojo claro */
-    color: #721c24; /* Rojo oscuro */
-    border: 1px solid #f5c6cb; /* Borde rojo claro */
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
 }
