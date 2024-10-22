@@ -57,7 +57,7 @@ if (isset($_POST['editar'])) {
 
     <section class="contact-form">
         <h1><?php echo $editar ? "Modificar mensaje" : "Enviar un mensaje"; ?></h1>
-        <form action="procesar.php" method="POST" onsubmit="return validateForm();">
+        <form action="procesar.php" method="POST">
             <input type="hidden" id="id" name="id" value="<?php echo $id; ?>"> <!-- Este ID es crítico para la modificación -->
         
             <div class="input-group">
