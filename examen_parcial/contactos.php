@@ -119,7 +119,7 @@ if (isset($_POST['editar'])) {
 
     <footer>
         <p>Desarrollado por Carlos Ortiz - Contacto: 0976524098</p>
-        <p><a href="https://www.instagram.com/thatonekiidcarlos/">Sígueme en Instagram</a></p>
+        <p><a href="https://www.instagram.com/thatonekiidcarlos/" target="_blank" rel="noopener noreferrer">Sígueme en Instagram</a></p>
     </footer>
 </body>
 </html>
